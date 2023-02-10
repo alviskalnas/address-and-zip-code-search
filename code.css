@@ -1,0 +1,68 @@
+form#city-form {
+    
+    width: 800px;
+    height: 126px;
+    display: flex;
+    flex-direction: row;
+}
+.enter-container{
+    background: linear-gradient(36deg, rgba(175,147,147,1) 0%, rgba(154,110,110,1) 100%);
+    width: 390px;
+    height: 130px;
+}
+label {
+    font-size: x-large;
+    font-weight: 700;
+    font-family: monospace;
+}
+
+select#country-select {
+    margin: 3px 0 0 43px;
+    height: 40px;
+    width: 130px;
+    border: double;
+    border-color: aqua;
+    border-radius: 10px;
+}
+
+select#postcode-select {
+    margin: 3px 0 0 85px;
+    height: 40px;
+    width: 130px;
+    border: double;
+    border-color: aqua;
+    border-radius: 10px;
+}
+
+button#find-city-btn {
+    border: 3px solid yellowgreen;
+    border-radius: 10px;
+    background: aquamarine;
+    margin: 10px 5px 0 256px;
+    width: 130px;
+    height: 25px;
+}
+.img-container {
+    width: 600px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+}
+img {
+    margin: 0;
+    width: 100%;
+    height: 100%;
+}
+
+p#location-info {
+    
+    width: 390px;
+    background: linear-gradient(36deg, rgba(175,147,147,1) 0%, rgba(154,110,110,1) 100%);
+}
+
+p {
+    font-size: x-large;
+    color: whitesmoke;
+    font-family: monospace;
+    font-weight: 700;
+}

@@ -6,12 +6,13 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Addres and zip-code</title>
+  <link rel="stylesheet" href="code.css">
 </head>
 
 <body>
 
   <form id="city-form">
-    <div>
+    <div class="enter-container">
       <label for="country">Enter Country Code:</label>
       <select id="country-select">
         <option value="AD">Andorra</option>
@@ -27,7 +28,12 @@
 
       </select>
       <button id="find-city-btn">Find Location</button>
+      
     </div>
+    <div class="img-container">
+      <img src="405776.png" alt="">
+    </div>
+    
   </form>
 
   <div id="city-display">
