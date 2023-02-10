@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Addres and zip-code</title>
+</head>
+
+<body>
+
+  <form id="city-form">
+    <div>
+      <label for="country">Enter Country Code:</label>
+      <select id="country-select">
+        <option value="AD">Andorra</option>
+        <option value="AR">Argentina</option>
+        <option value="AS">American Samoa</option>
+
+      </select>
+      <label for="postcode">Enter Zip Code:</label>
+      <select id="postcode-select">
+        <option value="AD100">AD100</option>
+        <option value="1601">1601</option>
+        <option value="96799">96799</option>
+
+      </select>
+      <button id="find-city-btn">Find Location</button>
+    </div>
+  </form>
+
+  <div id="city-display">
+    <p id="location-info"></p>
+  </div>
+  <script src="script.js"></script>
+</body>
+
+</html>
